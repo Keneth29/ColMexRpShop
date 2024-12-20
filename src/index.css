@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body{
+    background: url('https://application.colmexrp.com//IMG_20241217_141349.png');
+    background-size: cover;
+    padding: 8px;
+    width: 100%;
+    min-height: 100VH;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    max-width: 1260px;
+    margin-right: auto;
+    padding: 10px 20px;
+    background: #1f2922; /* Dark navbar background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;    
+    font-family: "Barlow Semi Condensed", sans-serif;
+    border: 1.5px solid #ffffff3b; 
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar-logo .logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+
+  .login-btn {
+    display: flex;
+    padding: 13px 25px;
+    background-color: #353B3A;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 11px;
+  }
+  
+  .login-btn:hover {
+    background-color:#5bb229;
+  }
+
+.bg-color{
+  background: #def4e4; /* Dark navbar background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.select-main{
+  background: #1f2922; /* Dark navbar background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  border: 1px solid #464e48;
+  border-radius: 10px;
+}
+.select-main:active{
+  border: 1px solid #464e48;
+}
